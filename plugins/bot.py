@@ -80,7 +80,7 @@ async def unarchiver(client, message):
                 LOGGER.info("Ignoring file size: " + str(Config.SHOW_PROGRESS_MIN_SIZE_DOWNLOAD))
                 if sizeformessage > Config.SHOW_PROGRESS_MIN_SIZE_DOWNLOAD:
                     try:
-                        LOGGER.info("document size was bigger than config. showing process.")
+                        LOGGER.info("File To Big Join [ @NarutoSupportChat ] For free Download.")
                         if password is not None:
                             islocked = "🔒"
                         else:
